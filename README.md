@@ -13,7 +13,7 @@ I did not come up with the idea for this program but [picklenerd](https://pickle
 ### Adding a message
 To insert a secret message to a PNG file, run: `pngme encode file.png chNk "Your message here"`
 
-*chNk* is the type of chunk that your message will be written on. You must use 4 ASCII Alphabetic (a-Z) characters as the type and 3rd bit **should** be uppercase. So `kaRa`, `heLo`, `pnGm` are good examples. For more details about chunk types, please visit http://www.libpng.org/pub/png/spec/1.2/PNG-Structure.html
+*chNk* is the type of chunk that your message will be written on. You must use 4 ASCII Alphabetic (a-Z) characters as the type and 3rd byte (character) starting from left **should** be uppercase. So `kaRa`, `heLo`, `pnGm` are good examples. For more details about chunk types, please visit http://www.libpng.org/pub/png/spec/1.2/PNG-Structure.html
 
 ### Reading a message
 To read a secret message in a PNG file, run: `pngme decode file.png chNk`
