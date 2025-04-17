@@ -23,12 +23,12 @@ This will print the message in the `chNk` if there is one.
 ### Finding messages
 To find messages, you can use `pngme print file.png`
 
-This will list all the chunks so be aware. Data of the image is also in chunks and you will not be able to read them because of they are not UTF-8 texts.
+This will list all the chunks so be aware. Data of the image is also in chunks and you will not be able to read them because they are not UTF-8 texts.
 
 ### Removing messages
 To remove message (chunk), you can use `pngme remove file.png chNk`
 
-You can accidentally delete your image if you would remove image data chunks. Only remove the messages you created! If there is duplication of chunk types, this command will remove the first one.
+You can accidentally delete your image if you were to remove the image data chunks. Only remove the messages you created! If there is duplication of chunk types, this command will remove the first one so beware.
 
 ### I don't understand, please help me!
 Run the executable for help as: `pngme --help`
