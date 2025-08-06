@@ -1,0 +1,14 @@
+[package]
+name = "pngme"
+version = "1.0.0"
+authors = ["Karahan Buhan"]
+edition = "2021"
+description = "Command line program that lets you hide secret messages in PNG files."
+readme = "https://kaynak.karahanbuhan.com/karahan/pngme/src/branch/main/README.md"
+repository = "https://kaynak.karahanbuhan.com/karahan/pngme"
+license = "MIT License"
+
+[dependencies]
+clap = { version = "4.0.22", features = ["derive"] }
+anyhow = "1.0.66"
+crc = "3.0.0"
