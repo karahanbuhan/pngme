@@ -28,7 +28,7 @@ To remove message (chunk), you can use `pngme remove file.png chNk`
 
 You can accidentally delete your image if you were to remove the image data chunks. Only remove the messages you created! If there is duplication of chunk types, this command will remove the first one so beware.
 
-### I don't understand, please help me!
+### For help
 Run the executable for help as: `pngme --help`
 
 ## License
